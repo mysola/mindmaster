@@ -30,9 +30,10 @@
 ## 2018/6-2018/12 国外房产销售相关CRM系统
 项目描述：为国外房产销售圈提供的CRM系统，服务端为微服务架构，采用springcloud搭建
 责任描述：
-1.负责测试/开发环境的公共组件如 kafka，promethues，grafana，yapi等组件的维护，并整理相关文档。
-2.负责部分CRM系统后端需求开发
-涉及技术： ssm，kafka，redis，springcloud
+1.负责CRM系统计分模块的开发与维护
+2.负责CRM系统官方主页模块的开发与维护
+3.负责测试/开发环境的公共组件如 kafka，promethues，grafana，yapi等组件的维护，并整理相关文档。
+涉及技术： ssm，kafka，redis，springcloud,linux
 ## 2018/3-2018/5 旅游信息检索系统的设计与实现
 项目描述：提供对国内一些旅游网站信息的关键字检索功能
 首先使用java爬虫hertrix对国内旅游网站的部分子网页进行爬取，其次对爬取的网页进行链接分析，利用多线程离线计算每个网页的PageRank分值，接着使用lucene对网页集建立索引，最后将每个网页的PageRank分值整合至lucene的文档评分排序算法中，以web网页的形式提供检索功能。
