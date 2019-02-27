@@ -16,13 +16,13 @@
 # 技能清单
 * 熟悉JVM运行时内存结构，包括类加载机制等。
 * 熟练掌握java语言，熟悉其提供的list/set/map等数据结构，熟悉常用设计模式。
-* 熟练使用ssm框架配合mysql数据库进行web应用的迭代开发。
-* 熟悉并发编程，可在多线程环境下进行编程。
+* 熟练使用ssm框架配合mysql数据库进行web应用的迭代开发,熟悉mysql的索引原理。
+* 熟悉java提供的并发机制，可在多线程环境下进行编程。
 * 熟悉常用linux命令，可用shell脚本及正则表达式完成日常的自动化任务。
 * 熟悉git/maven等项目管理工具。
 * 具有较为完善的操作系统及计算机网络相关的基础知识。
-* 了解微服务架构相关技术，如redis/kafka/feign等，了解lucene工作原理及倒排索引
-* 了解struts2/hibernate等后端框架，了解html/css/js/easyUI等前端技术
+* 了解微服务架构相关技术，如redis/kafka等。
+* 了解struts2/hibernate等后端框架，了解html/css/js/easyUI等前端技术。
 # 工作经历
 ## 2018/6-2018/12 武汉人人网 java开发工程师
 负责国外房产销售相关CRM系统的需求开发与系统维护
@@ -32,8 +32,8 @@
 责任描述：
 1.负责CRM系统计分模块的开发与维护
 2.负责CRM系统官方主页模块的开发与维护
-3.负责测试/开发环境的公共组件如 kafka，promethues，grafana，yapi等组件的维护，并整理相关文档。
-涉及技术： ssm，kafka，redis，springcloud,linux
+3.负责测试/开发环境的公共组件如 kafka，promethues，grafana，yapi等组件的维护，并整理相关文档
+涉及技术： ssm，kafka，redis，springcloud，linux
 ## 2018/3-2018/5 旅游信息检索系统的设计与实现
 项目描述：提供对国内一些旅游网站信息的关键字检索功能
 首先使用java爬虫hertrix对国内旅游网站的部分子网页进行爬取，其次对爬取的网页进行链接分析，利用多线程离线计算每个网页的PageRank分值，接着使用lucene对网页集建立索引，最后将每个网页的PageRank分值整合至lucene的文档评分排序算法中，以web网页的形式提供检索功能。
